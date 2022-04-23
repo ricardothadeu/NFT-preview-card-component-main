@@ -1,0 +1,118 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    box-shadow: 1rem 45px 10px hsl(212, 70%, 9%), -1rem 45px 10px hsl(212, 70%, 9%);
+    height: 549px;
+    left: 50%;
+    margin-right: -50%; 
+    padding: 1.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);   
+    top: 50%;
+    width: 300px;
+}
+
+.card-img  {
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    height: 300px;
+    width: 100%;
+}
+
+.card-img:hover {
+    background-image: url('images/icon-view.svg'), url('images/image-equilibrium.jpg');
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 300px hsla(178, 100%, 50%, 0.4);
+    cursor: pointer;
+}
+
+#title {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+#title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+   
+}
+
+.card-text {
+    color:  hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-eth {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.time-left {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.card-eth span, .time-left span {
+    padding-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+}
+
+footer span {
+    color: white;
+    padding-left: 3px;
+}
+
+footer span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+footer img {
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+
