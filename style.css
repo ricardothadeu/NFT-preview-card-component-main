@@ -43,7 +43,7 @@ body {
 
 #title {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
@@ -58,8 +58,8 @@ body {
 
 .card-text {
     color:  hsl(215, 51%, 70%);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1.125rem;
+    font-weight: 300;
     padding-bottom: 1.5rem;
     width: 100%;
 }
@@ -75,14 +75,14 @@ body {
     color: hsl(178, 100%, 50%);
     display: flex;
     align-items: center;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .time-left {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
-    font-weight: 400;
+    font-weight: 00;
 }
 
 .card-eth span, .time-left span {
@@ -114,5 +114,3 @@ footer img {
     border: 1px solid white;
     margin-right: 15px;
 }
-
-
